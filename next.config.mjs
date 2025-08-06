@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  transpilePackages: ['geist'], // ✅ Required for 'geist/font/mono'
 }
 
 export default nextConfig
